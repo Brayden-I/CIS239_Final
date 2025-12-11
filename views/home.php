@@ -4,6 +4,7 @@
     <p>No upcoming events.</p>
 <?php else: ?>
     <div class="row">
+        <!-- Display each event as a card -->
         <?php foreach ($events as $event): ?>
             <div class="col-md-4 mb-3">
                 <div class="card">

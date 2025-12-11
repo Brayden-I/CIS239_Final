@@ -1,3 +1,4 @@
+<!-- If the error variable is not empty, display it and provide a button to return to home -->
 <?php if (!empty($error)): ?>
     <div class="alert alert-danger mt-3">
         <?= htmlspecialchars($error) ?>

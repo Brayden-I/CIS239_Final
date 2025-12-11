@@ -61,7 +61,7 @@ switch ($action) {
         // Redirect to login page
         header('Location: ?page=admin_login');
         exit;  // ALWAYS exit after header redirect
-        break;
+        // Since we are exitting, a break is not neccessary as it is unreachable
     
     case 'create_event':
         requireAdmin();  // Make sure they're logged in
